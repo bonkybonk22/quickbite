@@ -1,4 +1,4 @@
-#QuickBite - Canteen/Ordering System (GUI Version)
+#QuickBite - Canteen/Ordering System 
 #ITE 260 Final Project
  
 import sqlite3
@@ -17,3 +17,4 @@ class QuickBiteApp(tk.Tk):
         self.geometry("900x600")
  
         notebook = ttk.Notebook(self)
+        
